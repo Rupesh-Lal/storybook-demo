@@ -1,0 +1,5 @@
+@mixin breakpoints-small {
+    @media screen and (max-width: 599px) {
+      @content;
+    }
+  }
